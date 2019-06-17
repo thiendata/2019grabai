@@ -22,10 +22,10 @@ Assumptions
 # What didn't
 Too many (used out-of-box) but just to list 
 * Auto-arima, TBATS, RNN (though didn't run through enough epoch), Facebook Prophet, LGB
-* Feature engineering
-** day of week field (though it was noted two of 7 days had lesser demand
-** historical timestamp demand
-** Getting T-1 previous demand, neighbor demand, median of demand, filling "missing" data with demand = 0, historical 0 demand timestamps
+* Feature engineering (that didn't work)
+* day of week field (though it was noted two of 7 days had lesser demand
+* historical timestamp demand
+* Getting T-1 previous demand, neighbor demand, median of demand, filling "missing" data with demand = 0, historical 0 demand timestamps
 (thought there was missing data until saw the FAQ mentioned missing data -> demand=0)
 
 # What might work
